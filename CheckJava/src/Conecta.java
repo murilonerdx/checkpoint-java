@@ -114,24 +114,4 @@ public class Conecta {
             System.err.println(e.getMessage());
         }
     }
-
-
-    public void consulta(String table, String condition){
-        try {
-            Class.forName(this.driverOracle);
-            Connection con = DriverManager.getConnection(this.conection, this.nameConecta, this.passConecta);
-
-            Statement stmt = con.createStatement();
-            String query = String.format("DELETE FROM  %s WHERE (%s)", table, condition);
-            stmt.executeUpdate(query);
-            System.out.println("Deletado com sucesso");
-
-            con.close();
-        } catch (ClassNotFoundException e) {
-            System.err.printf("O driver JDBC nao foi encontrado: %s\n", e.getMessage());
-        } catch (SQLException e) {
-            System.err.println("Nao foi possavel estabelecer a conexao com o banco de dados");
-            System.err.println(e.getMessage());
-        }
-    }
 }
