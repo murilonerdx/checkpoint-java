@@ -90,7 +90,7 @@ public class Tarefa {
      * @param nomeTarefa
      */
     public void remover(String nomeTarefa) {
-        conecta.delete("T_SIP_PROJETOS", String.format("CD_PROJETOS = '%s'", nomeTarefa));
+        conecta.delete("T_SIP_TAREFA", String.format("NM_TAREFA = '%s'", nomeTarefa));
     }
 
     public void consulta() throws SQLException {
