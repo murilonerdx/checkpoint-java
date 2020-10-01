@@ -1,8 +1,8 @@
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
-import Conexao.Propriedade;
+import dao.Propriedades.Propriedade;
+import dao.factory.Conecta;
 
 
 public class Cargo {

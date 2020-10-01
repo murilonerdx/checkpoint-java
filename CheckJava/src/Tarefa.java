@@ -5,6 +5,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.Scanner;
+import dao.factory.Conecta;
+
 
 public class Tarefa {
     private int codigoTarefa;

@@ -4,7 +4,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
-import Conexao.Propriedade;
+import dao.Propriedades.Propriedade;
+import dao.factory.Conecta;
 
 public class Calendario {
     private int codigoEvento;

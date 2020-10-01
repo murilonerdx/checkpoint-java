@@ -3,7 +3,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import Conexao.Propriedade;
+import dao.Propriedades.Propriedade;
+import dao.factory.Conecta;
 
 public class Medalha {
     private Integer cdMedalha;
