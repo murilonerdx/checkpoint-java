@@ -6,7 +6,7 @@
 
 Projeto Java Checkpoint.
 
-  - DDL Incluisa
+  - DDL Incluida
   - Algumas classes e metodos foram retirados pois contem informações do banco, onde não incluimos no modo generico da conexão.
   - Fase de teste, pode haver alguns erros, pois não foi 100% testada sem os metodos e atribuições no qual foram retiradas.
   - A classe principal está vazia, para testes.
